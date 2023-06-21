@@ -22,7 +22,13 @@ fi
 
 sudo rm /usr/bin/way-display-guard
 
-echo "DONE! Installation/Update completed."
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
+echo "#################################################################"
+echo "Installation/Update completed."
 echo "#################################################################"
 echo "To use way-display-guard, execute the following command: way-display-guard"
 echo "#################################################################"
