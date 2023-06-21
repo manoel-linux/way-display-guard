@@ -64,7 +64,11 @@ clear
 echo "#################################################################"
 xhost si:localuser:root
 echo "#################################################################"
-echo "DONE!"
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "
 echo "#################################################################"
 echo "The issue with display:0 has been resolved. Now you can run a program as a superuser or using 'sudo' on Wayland. 
 Please remember that after shutting down or restarting the computer, 
@@ -88,7 +92,13 @@ clear
 echo "#################################################################"
 xhost -si:localuser:root
 echo "#################################################################"
-echo "DONE! Way-display-guard disabled"
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
+echo "#################################################################"
+echo "way-display-guard disabled"
 echo "#################################################################"
 read -rsn1 -p "press Enter to return to the main menu
 #################################################################" key
