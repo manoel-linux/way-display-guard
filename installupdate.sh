@@ -78,7 +78,7 @@ sudo xbps-install -Syu -y
 else
 echo "Skipping system update."
 echo "#################################################################"
-sudo xbps-install glxinfo unzip binutils tar curl xbps xz lm_sensors dialog -y
+sudo xbps-install glxinfo unzip binutils tar curl xbps xz lm_sensors dialog xhost -y
 fi
 else
 echo "#################################################################"
