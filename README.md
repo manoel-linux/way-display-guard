@@ -4,6 +4,8 @@
 
 - It only works on Wayland
 
+- Support for the distro: Void Linux Ubuntu/Debian Arch/Artix/Manjaro
+
 - way-display-guard-version: june 2023
 
 - build-latest: 0.0.1
