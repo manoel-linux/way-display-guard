@@ -3,7 +3,7 @@
 
 clear
 echo "#################################################################"
-echo "way-display-guard-uninstaller: june 2023"
+echo "way-display-guard-uninstaller: july 2023"
 echo "#################################################################"
 echo " ██     ██  █████  ██    ██ "
 echo " ██     ██ ██   ██  ██  ██  "
