@@ -6,7 +6,7 @@
 
 - Support for the distro: Void Linux Ubuntu/Debian Arch/Artix/Manjaro
 
-- way-display-guard-version: june 2023
+- way-display-guard-version: july 2023
 
 - build-latest: 0.0.1
 
