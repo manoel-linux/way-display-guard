@@ -40,11 +40,15 @@ exit 1
 fi
 
 sudo pacman -S iputils -y
+echo "#################################################################"
 sudo xbps-install inetutils-ping -y
+echo "#################################################################"
 sudo apt-get install --no-install-recommends inetutils-ping -y
+echo "#################################################################"
 
 clear
 
+echo "#################################################################"
 echo "Connected to the internet. Running the script..."
 echo "#################################################################"
 echo "(1)> (Install) the way-display-guard version of Void-Linux"
