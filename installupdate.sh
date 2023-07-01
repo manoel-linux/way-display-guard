@@ -6,7 +6,7 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "way-display-guard-installer: june 2023"
+echo "way-display-guard-installer: july 2023"
 echo "#################################################################"
 echo " ██     ██  █████  ██    ██ "
 echo " ██     ██ ██   ██  ██  ██  "
