@@ -1,9 +1,5 @@
 # way-display-guard
 
-- It can only be executed without superuser and sudo
-
-- It only works on Wayland
-
 - way-display-guard-version: july 2023
 
 - build-latest: 0.0.1
@@ -11,6 +7,10 @@
 - Support for the distro: Void-Linux/Ubuntu/Debian/Arch/Artix/Manjaro
 
 - If you are using a distribution based on Ubuntu, Debian, or Arch, the script will work without any issues.
+
+- It can only be executed without superuser and sudo
+
+- It only works on Wayland
 
 - way-display-guard is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with way-display-guard, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of way-display-guard to add additional features.
 
