@@ -28,8 +28,6 @@
 
 - sudo `./installupdate.sh`
 
-- When installing way-display-guard for the first time, you may encounter an error "`rm /usr/bin/way-display-guard`" if the file doesn't exist. This removal command is part of - - the update process, but during the initial installation, the way-display-guard file is not yet present in the `/usr/bin/` directory. Therefore, you can safely ignore -- this error as it will not affect the installation of way-display-guard. The script will proceed to copy the way-display-guard file to the `/usr/bin/` directory and set the ----- correct permissions.
-
 # 3. Execute the way-display-guard script
 
 - `way-display-guard`
