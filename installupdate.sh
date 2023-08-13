@@ -105,9 +105,14 @@ clear
 
 sudo rm /usr/bin/way-display-guard
 
+clear
+
 sudo cp way-display-guard /usr/bin/
 
 sudo chmod +x /usr/bin/way-display-guard
+
+clear
+
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -163,9 +168,14 @@ clear
 
 sudo rm /usr/bin/way-display-guard
 
+clear
+
 sudo cp way-display-guard /usr/bin/
 
 sudo chmod +x /usr/bin/way-display-guard
+
+clear
+
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -220,9 +230,14 @@ clear
 
 sudo rm /usr/bin/way-display-guard
 
+clear
+
 sudo cp way-display-guard /usr/bin/
 
 sudo chmod +x /usr/bin/way-display-guard
+
+clear
+
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
