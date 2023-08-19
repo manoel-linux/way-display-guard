@@ -11,18 +11,17 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "way-display-guard-version: aug 2023"
+echo "way-display-guard-version >> (aug 2023)"
 echo "#################################################################"
 echo " ██     ██  █████  ██    ██ "
 echo " ██     ██ ██   ██  ██  ██  "
 echo " ██  █  ██ ███████   ████   "
 echo " ██ ███ ██ ██   ██    ██    "
-echo "  ███ ███  ██   ██    ██    "   
+echo "  ███ ███  ██   ██    ██    "  
 echo "#################################################################"
-echo "build-latest: 0.0.3"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-echo "way-display-guard-github: https://github.com/manoel-linux/way-display-guard"
+echo "build-latest: 0.0.3" 
+echo "way-display-guard-github >> (https://github.com/manoel-linux/way-display-guard)"
 echo "#################################################################"
-
 
 if [[ $EUID -eq 0 ]]; then
 echo " ███████ ██████  ██████   ██████  ██████  ██ "
