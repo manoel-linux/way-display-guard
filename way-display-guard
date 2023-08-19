@@ -19,7 +19,7 @@ echo " ██  █  ██ ███████   ████   "
 echo " ██ ███ ██ ██   ██    ██    "
 echo "  ███ ███  ██   ██    ██    "  
 echo "#################################################################"
-echo "build-latest: 0.0.3" 
+echo "build-latest >> (0.0.3)" 
 echo "way-display-guard-github >> (https://github.com/manoel-linux/way-display-guard)"
 echo "#################################################################"
 
