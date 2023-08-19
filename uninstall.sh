@@ -1,17 +1,16 @@
 #!/bin/bash
 
-
 clear
 echo "#################################################################"
-echo "way-display-guard-uninstaller: july 2023"
+echo "way-display-guard-uninstaller >> (aug 2023)"
 echo "#################################################################"
 echo " ██     ██  █████  ██    ██ "
 echo " ██     ██ ██   ██  ██  ██  "
 echo " ██  █  ██ ███████   ████   "
 echo " ██ ███ ██ ██   ██    ██    "
-echo "  ███ ███  ██   ██    ██    "   
-echo "#################################################################"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-echo "way-display-guard-github: https://github.com/manoel-linux/way-display-guard"
+echo "  ███ ███  ██   ██    ██    "  
+echo "#################################################################"
+echo "way-display-guard-github >> (https://github.com/manoel-linux/way-display-guard)"
 echo "#################################################################"
 
 if [[ $EUID -ne 0 ]]; then
