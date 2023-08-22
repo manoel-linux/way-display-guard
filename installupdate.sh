@@ -121,7 +121,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation/Update completed)"
 echo "#################################################################"
-echo "To use way-display-guard, execute the following command: way-display-guard"
+echo "(To use way-display-guard, execute the following command >> way-display-guard)"
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
@@ -184,7 +184,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation/Update completed)"
 echo "#################################################################"
-echo "To use way-display-guard, execute the following command: way-display-guard"
+echo "(To use way-display-guard, execute the following command >> way-display-guard)"
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
@@ -247,7 +247,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation/Update completed)"
 echo "#################################################################"
-echo "To use way-display-guard, execute the following command: way-display-guard"
+echo "(To use way-display-guard, execute the following command >> way-display-guard)"
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
