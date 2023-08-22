@@ -1,7 +1,9 @@
 #!/bin/bash
 
 if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
-echo "This script can only be executed in a Wayland environment."
+echo "#################################################################"
+echo "(This script can only be executed in a Wayland environment)"
+echo "#################################################################"
 exit 1
 fi
 
@@ -11,7 +13,7 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "way-display-guard-version >> (aug 2023)"
+echo "(way-display-guard-version) >> (aug 2023)"
 echo "#################################################################"
 echo " ██     ██  █████  ██    ██ "
 echo " ██     ██ ██   ██  ██  ██  "
@@ -19,8 +21,8 @@ echo " ██  █  ██ ███████   ████   "
 echo " ██ ███ ██ ██   ██    ██    "
 echo "  ███ ███  ██   ██    ██    "  
 echo "#################################################################"
-echo "build-latest >> (0.0.3)" 
-echo "way-display-guard-github >> (https://github.com/manoel-linux/way-display-guard)"
+echo "(build-latest) >> (0.0.3)" 
+echo "(way-display-guard-github) >> (https://github.com/manoel-linux/way-display-guard)"
 echo "#################################################################"
 
 if [[ $EUID -eq 0 ]]; then
@@ -30,18 +32,18 @@ echo " █████   ██████  ██████  ██    █�
 echo " ██      ██   ██ ██   ██ ██    ██ ██   ██    "
 echo " ███████ ██   ██ ██   ██  ██████  ██   ██ ██ "                                                                                        
 echo "#################################################################"
-echo "This script should not be executed as a superuser or sudo."
-echo "Please run it without superuser privileges or sudo."
+echo "(This script should not be executed as a superuser or sudo)"
+echo "(Please run it without superuser privileges or sudo)"
 echo "#################################################################"
 exit 1
 fi
 
-echo "(1)> way-display-guard-for-enable"
-echo "(2)> way-display-guard-for-disable"
-echo "(3)> Exit"
+echo "(1)> (way-display-guard-for-enable)"
+echo "(2)> (way-display-guard-for-disable)"
+echo "(3)> (Exit)"
 echo "#################################################################"
 
-read -p "Enter your choice: " choice
+read -p "(Enter your choice) >> " choice
 echo "#################################################################"
 
 case $choice in
@@ -55,7 +57,7 @@ show_way_display_guard_for_disable
 exit 0
 ;;
 *)
-echo "Invalid choice. Please try again."
+echo "(Invalid choice. Please try again)"
 echo "#################################################################"
 sleep 2
 ;;
@@ -75,11 +77,11 @@ echo " ██   ██ ██    ██ ██ ██  ██ █████   
 echo " ██   ██ ██    ██ ██  ██ ██ ██         "
 echo " ██████   ██████  ██   ████ ███████ ██ "
 echo "#################################################################"
-echo "The issue with display:0 has been resolved. Now you can run a program as a superuser or using 'sudo' on Wayland. 
-Please remember that after shutting down or restarting the computer, 
-you will still need to execute the way-display-guard to activate it."
+echo "(The issue with display:0 has been resolved. Now you can run a program as a superuser or using 'sudo' on Wayland)
+(Please remember that after shutting down or restarting the computer) 
+(you will still need to execute the way-display-guard to activate it)"
 echo "#################################################################"
-read -rsn1 -p "press Enter to return to the main menu
+read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
 if [[ $key == "r" || $key == "R" ]]; then
 continue
@@ -103,9 +105,9 @@ echo " ██   ██ ██    ██ ██ ██  ██ █████   
 echo " ██   ██ ██    ██ ██  ██ ██ ██         "
 echo " ██████   ██████  ██   ████ ███████ ██ "  
 echo "#################################################################"
-echo "way-display-guard disabled"
+echo "(way-display-guard disabled)"
 echo "#################################################################"
-read -rsn1 -p "press Enter to return to the main menu
+read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
 if [[ $key == "r" || $key == "R" ]]; then
 continue
